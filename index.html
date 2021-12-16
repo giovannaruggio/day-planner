@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,61 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <table class="table">
+        <thead>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">9AM</th>
+            <td><textarea id="9"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">10AM</th>
+            <td><textarea id="10"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">11AM</th>
+            <td><textarea id="11"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">12PM</th>
+            <td><textarea id="12"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">1PM</th>
+            <td><textarea id="13"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">2PM</th>
+            <td><textarea id="14"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">3PM</th>
+            <td><textarea id="15"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">4PM</th>
+            <td><textarea id="16"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">5PM</th>
+            <td><textarea id="17"></textarea></td>
+            <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
