@@ -12,16 +12,19 @@
 // WHEN I refresh the page
 // THEN the saved events persist
 
+
+//Utilize moment to set currentday
 var today = moment().format("MMM Do, YYYY");
 $("#currentDay").text(today);
 
-
+//Moment to set time by hour
 var now = moment().hour();
 console.log(now);
 
 var textArea = $("textarea");
 console.log(textArea);
 
+//For statement to sync timeblocks by hour
 for (var i=0; i < textArea.length; i++) {
     console.log(textArea[i]);
     console.log($(textArea[i]).attr("id"));
