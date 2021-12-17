@@ -1,16 +1,19 @@
+
+/* Add font-family from Google Fonts */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bakbak One', cursive;
   font-size: 16px;
   line-height: 1;
+  background-color: rgb(52, 166, 228);
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
+  width: 969px;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  padding: 15px;
 }
 
 .jumbotron {
@@ -25,6 +28,12 @@ textarea {
   white-space: pre-wrap;
 }
 
+/* Add class to manipulate style of table */
+.table td, .table th {
+  font-size: 22px;
+  border-top: 0px;
+}
+
 .time-block {
   text-align: center;
   border-radius: 15px;
@@ -33,7 +42,6 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
 }
 
 .hour {
@@ -61,11 +69,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #df6a11;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
