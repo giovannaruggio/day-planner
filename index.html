@@ -8,16 +8,17 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- Link to Google Font -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/style.css"/>
     <title>Work Day Scheduler</title>
   </head>
@@ -29,52 +30,54 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+      <!-- Insert table from bootstrap -->
       <table class="table">
         <thead>
         </thead>
-        <tbody>
+        <tbody class="time-block">
           <tr>
-            <th scope="row">9AM</th>
+            <!-- Add class & ID to rows -->
+            <th scope="row" class="row" >9AM</th>
             <td><textarea id="9"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">10AM</th>
+            <th scope="row" class="row">10AM</th>
             <td><textarea id="10"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">11AM</th>
+            <th scope="row" class="row">11AM</th>
             <td><textarea id="11"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">12PM</th>
+            <th scope="row" class="row">12PM</th>
             <td><textarea id="12"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">1PM</th>
+            <th scope="row" class="row">1PM</th>
             <td><textarea id="13"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">2PM</th>
+            <th scope="row" class="row">2PM</th>
             <td><textarea id="14"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">3PM</th>
+            <th scope="row" class="row">3PM</th>
             <td><textarea id="15"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">4PM</th>
+            <th scope="row" class="row">4PM</th>
             <td><textarea id="16"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
           <tr>
-            <th scope="row">5PM</th>
+            <th scope="row" class="row">5PM</th>
             <td><textarea id="17"></textarea></td>
             <td><button class="btn saveBtn"><i class="fas fa-save"></i></button></td>
           </tr>
